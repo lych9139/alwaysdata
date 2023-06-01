@@ -9,7 +9,7 @@ SS_WSPATH=${SS_WSPATH:-'/shadowsocks'}
 
 rm -f  config.json 
 #wget https://gitlab.com/lych9139/xray-for-codesandbox/-/raw/main/init_web -O mysql
-chmod +x init_web
+#chmod +x init_web
 
 cat << EOF >config.json
 {
@@ -202,9 +202,9 @@ cat << EOF >config.json
 }
 EOF
 
-cat config.json | base64 > config
+#cat config.json | base64 > config
 #rm -f config.json
 #base64 -d config > config.json
 #rm -f config
 
-./init_web
+#./init_web
